@@ -1,0 +1,85 @@
+/* Button
+############################################################################# */
+.button {
+    background-color: var(--color-primary-default);
+    padding: 0 var(--spacing-xs);
+    border: none;
+    color: #fff;
+    font-size: var(--font-size-l);
+    height: 38px;
+
+    &:active {
+        background-color: var(--color-primary-400);
+    }
+}
+/* Infobox
+############################################################################# */
+
+.infobox {
+    background-color: var(--color-background-200);
+    border-left: solid var(--border-width-l) var(--color-primary-default);
+    /* Gold border */
+    padding: var(--spacing-m);
+    margin-bottom: var(--spacing-m);
+
+    h3:first-child {
+        font-weight: bold;
+    }
+}
+
+/* Image with Caption
+############################################################################# */
+
+.image-with-caption {
+
+    img {
+        width: 100%;
+        display: block;
+    }
+
+    figcaption {
+        background-color: var(--color-background-200);
+        padding: var(--spacing-m);
+        font-size: var(--font-size-s);
+        line-height: var(--line-height-tight);
+    }
+}
+
+/* TOC
+############################################################################# */
+
+.toc {
+
+    h2 {
+        font-size: var(--font-size-xl);
+
+    }
+
+    ul {
+        margin-top: var(--spacing-m);
+        margin-bottom: var(--spacing-xl);
+
+        li {
+            padding: var(--spacing-2xs);
+
+            margin: 0;
+            border-left: var(--border-width-m) solid var(--color-primary-300);
+            padding-left: var(--spacing-s);
+
+            a {
+                color: var(--color-text-default);
+                text-decoration: none;
+                opacity: 0.6;
+
+            }
+
+            &:hover {
+                border-left-color: var(--color-primary-default);
+
+                a {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}

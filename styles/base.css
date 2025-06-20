@@ -1,0 +1,47 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: var(--font-family-primary);
+    padding: var(--spacing-m);
+    color: var(--color-text-default);
+    background-color: var(--color-background-default);
+    line-height: var(--line-height-loose);
+    font-weight: var(--font-weight-light);
+}
+
+h1 {
+    font-size: var(--font-size-2xl);
+    font-weight: var(--font-weight-regular);
+    margin-bottom: var(--spacing-3xl);
+    line-height: var(--line-height-tight);
+}
+
+h2{
+    font-size: var(--font-size-xl);
+    margin-top: var(--spacing-3xl);
+}
+
+img{
+    width: 100%;
+    display: block;
+}
+
+p,
+h2,
+h3,
+h4,
+dd,
+li,
+figure{
+    margin-bottom: var(--spacing-m);
+}
+
+p, dd, li, figcaption{
+    hyphens: auto;;
+}
+
+strong{
+    font-weight: var(--font-weight-bold);
+}

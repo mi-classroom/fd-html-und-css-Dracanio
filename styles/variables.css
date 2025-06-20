@@ -1,0 +1,69 @@
+/**
+ * Design Tokens
+ * Based on Figma design: "FD - SoSe 2025"
+ */
+
+:root {
+    /* font family */
+    --font-family-primary: 'IBM Plex Sans', sans-serif;
+
+    /* font sizes */
+    --font-size-s: 0.75rem;    /* 12px */
+    --font-size-m: 1rem;       /* 16px - Basis */
+    --font-size-l: 1.25rem;    /* 20px */
+    --font-size-xl: 1.5rem;    /* 24 */
+    --font-size-2xl: 2rem;     /* 32px */
+    --font-size-3xl: 3.25rem;  /* 52px */
+
+    /* font weights */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    /* line heights */
+    --line-height-tight: 120%;
+    --line-height-normal: 130%;
+    --line-height-loose: 140%;
+
+    /* colors */
+    --color-primary-300: #FFD37E;
+    --color-primary-400: #FFC450;
+    --color-primary-default: #FEB701;
+    --color-seconadary-default: #CC5800;
+
+    --color-background-default: #FFFFFF;
+    --color-background-200: #F2F2F2;
+    --color-text-default: #000000;
+
+
+    /* spaces */
+    --spacing-3xs: 0.125rem; /* 2px */
+    --spacing-2xs: 0.25rem;  /* 4px */
+    --spacing-xs: 0.5rem;    /* 8px */
+    --spacing-s: 0.75rem;    /* 12px */
+    --spacing-m: 1rem;       /* 16px */
+    --spacing-l: 1.5rem;     /* 24px */
+    --spacing-xl: 2rem;      /* 32px */
+    --spacing-2xl: 2.5rem;   /* 40px */
+    --spacing-3xl: 3rem;     /* 48px */
+    --spacing-4xl: 4rem;      /* 64px */
+    --spacing-5xl:  5.75rem;  /* 92px */
+    --spacing-6xl: 7.5rem;    /* 120px */
+
+    /* border widths  */
+    --border-width-s: 1px;
+    --border-width-m: 2px;
+    --border-width-l: 4px;
+
+
+    /* transitions */
+    --transition-fast: 150ms;
+    --transition-normal: 300ms;
+    --transition-slow: 500ms;
+
+    /* breakpoints */
+    --break-point-xs: 576px;
+    --break-point-s: 768px;
+    --break-point-m: 1024px;
+    --breapoint-l: 1200px;
+} 
